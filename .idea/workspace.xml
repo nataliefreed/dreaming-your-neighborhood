@@ -2,7 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ec5058d-281d-417d-92ff-0bd9325b5d60" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/ElvertBarnes.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/canadienpacific.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/dave_mcmt.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/dennism2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/donbrr.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/drobnikm.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/envypictures.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/faceme.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/greenexplorer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/la-citta-vita.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/ligthelm.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/markhogan.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/mharriger.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/mharriger2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/nrmadriversseat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/peachberry98.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/pedrosimoes7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/pinkmoose.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/procsilas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/ray.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/russloar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/seier.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/seier2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/telstar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/telstar2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/themacinator.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/themacinator2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/thoseguys119.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/wonderlane:8743777172.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos2/zollatiff.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_index.js" afterPath="$PROJECT_DIR$/image_index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/make_image_index.py" afterPath="$PROJECT_DIR$/make_image_index.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts.js" afterPath="$PROJECT_DIR$/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <ignored path="dreaming-your-neighborhood.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +57,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.70884144">
-              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+            <state vertical-scroll-proportion="-30.458334">
+              <caret line="90" column="43" selection-start-line="90" selection-start-column="43" selection-end-line="90" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -36,18 +70,18 @@
       <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.592592">
-              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+            <state vertical-scroll-proportion="-70.51852">
+              <caret line="202" column="4" selection-start-line="202" selection-start-column="6" selection-end-line="226" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.64705884">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,9 +95,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/scripts.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style.css" />
       </list>
     </option>
   </component>
@@ -222,26 +256,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.592592">
-          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        <state vertical-scroll-proportion="-70.51852">
+          <caret line="202" column="4" selection-start-line="202" selection-start-column="6" selection-end-line="226" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70884144">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        <state vertical-scroll-proportion="-30.458334">
+          <caret line="90" column="43" selection-start-line="90" selection-start-column="43" selection-end-line="90" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64705884">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>

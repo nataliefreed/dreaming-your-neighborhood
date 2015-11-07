@@ -210,7 +210,7 @@ $(function () {
     //});
     //imageText.on('mousedown', function() {
     //    console.log("text clicked");
-
+    //
     //});
     //var imageText2 = fabric.util.object.clone(imageText);
     //imageText2.left = 150;
@@ -218,7 +218,7 @@ $(function () {
     //
     //canvas.add(imageText);
     //canvas.add(imageText2);
-
+    //
     //$("#houseButton").click(function() {
     //    var newHouse = fabric.util.object.clone(house);
     //    newHouse.left = nbX;

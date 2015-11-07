@@ -44,7 +44,7 @@ def make_image_index(search_root, path_root=None):
 
 if __name__ == '__main__':
   outfile_name = "image_index.js" # Result will be written here
-  search_root = "photos2" # Folders in this path will be searched recursively
+  search_root = "photos" # Folders in this path will be searched recursively
   path_root = "." # Output paths will be relative to this directory
   image_index = make_image_index(search_root, path_root)
   print "Writing image index to \"%s\"" % outfile_name

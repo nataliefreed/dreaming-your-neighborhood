@@ -1,5 +1,5 @@
 .top-space {
-    margin-top:20px;
+    margin-top:10px;
 }
 
 .btn-lg, .btn-group-lg, .btn {
@@ -14,6 +14,7 @@ body {
 
 h1 {
     text-align: left;
+    font-family: Helvetica;
 }
 
 .dh-icon {

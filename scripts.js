@@ -128,7 +128,7 @@ $(function () {
             ];
 
     for(var i=0;i<icons.length;i++) {
-        addMapIcon(icons[i], 10+i*(margin+40), 10);
+        addMapIcon(icons[i], 5+i*(margin+30), 10);
     }
 
     var park = new fabric.Rect({
@@ -139,14 +139,14 @@ $(function () {
         height: 8,
         selectable: false
     });
-    addShapeIcon(park, icons.length*(margin+40), 10, park.height, park.width);
+    addShapeIcon(park, icons.length*(margin+30), 10, park.height, park.width);
 
     var text = new fabric.IText("text", {
         fontFamily: 'Helvetica',
         fontSize: 25,
         hasControls: false,
         top: 10,
-        left: 10+(icons.length+1)*(margin+40)
+        left: 10+(icons.length+1)*(margin+30)
     });
     canvas.add(text);
     //addShapeIcon(text, canvas.width-menuWidth+gapWidth+margin, 10+(margin+40)*(icons.length+1), 5, 5);
@@ -237,6 +237,7 @@ $(function () {
             $(image).click(function (e) {
                 console.log(this.src);
                 addImage(this.src, 560, menuHeight+gapWidth+30);
+                listArea.empty();
             });
             listItem.appendChild(image);
             list.append(listItem);

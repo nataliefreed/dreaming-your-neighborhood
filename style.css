@@ -1,0 +1,26 @@
+.top-space {
+    margin-top:20px;
+}
+
+.btn-lg, .btn-group-lg, .btn {
+    /*padding: 15px 16px 13px;*/
+    /*line-height: 15px;*/
+    margin: 15px 15px 15px;
+}
+
+body {
+    background-color: #F8F5F0 !important;
+}
+
+h1 {
+    text-align: left;
+}
+
+.dh-icon {
+    display: block;
+    margin:10px 10px 10px 10px;
+}
+
+.inline-canvas {
+    display: inline-block;
+}

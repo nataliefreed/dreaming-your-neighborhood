@@ -49,6 +49,33 @@
    </div>
 
 
+<div id='image-lists'>
+</div>
+
+<script type="text/javascript" src="image_index.js"></script>
+<script>
+      var rootList = document.getElementById('image-lists');
+      for(var category in categoryLists) {
+        var categoryHeader = document.createElement('h1')
+        categoryHeader.textContent = category
+        rootList.appendChild(categoryHeader);
+        var list = document.createElement('div');
+        rootList.appendChild(list);
+        var imageUrls = categoryLists[category];
+        for(var i in imageUrls) {
+            var h = document.createElement('h2');
+            h.textContent = imageUrls[i];
+            list.appendChild(h)
+            var image = document.createElement('img');
+            image.setAttribute('src',imageUrls[i]);
+            image.setAttribute('height',300);
+            list.appendChild(image);
+        }
+      }
+</script>
+
+
+
    <!-- Modal -->
 <div id='imagePicker' class='modal fade' role='dialog'>
         <div class='modal-dialog'>

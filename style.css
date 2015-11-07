@@ -2,6 +2,10 @@
     margin-top:10px;
 }
 
+.left-space {
+    margin-left:10px;
+}
+
 .btn-lg, .btn-group-lg, .btn {
     /*padding: 15px 16px 13px;*/
     /*line-height: 15px;*/

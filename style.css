@@ -22,9 +22,10 @@ h1 {
     margin:10px 10px 10px 10px;
 }
 
-.inline-canvas {
-    display: inline !important;
-    float: left !important;
+.inline-block {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
 }
 
 .no-margin {
@@ -37,8 +38,8 @@ h1 {
 
 #image-lists {
     overflow: auto;
-    width: 500px;
-    height: 100px;
+    width: 210px;
+    height: 500px;
 }
 
 #image-lists li{

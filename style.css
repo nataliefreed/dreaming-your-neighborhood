@@ -23,7 +23,8 @@ h1 {
 }
 
 .inline-canvas {
-    display: inline-block;
+    display: inline !important;
+    float: left !important;
 }
 
 .no-margin {
@@ -36,8 +37,8 @@ h1 {
 
 #image-lists {
     overflow: auto;
-    width: 220px;
-    height: 500px;
+    width: 500px;
+    height: 100px;
 }
 
 #image-lists li{

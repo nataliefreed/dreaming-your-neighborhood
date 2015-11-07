@@ -17,30 +17,33 @@
 
     <link href="bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="image_index.js"></script>
     <script src="scripts.js"></script>
 
 </head>
 <body>
 
-<div class="container-fluid">
+<div class="container">
     <div class="row">
         <div class="col-lg-6">
             <h1>Dreaming Your Neighborhood</h1>
         </div>
     </div>
 <div class="top-space row">
-    <div class="col-md-8">
+    <div class="col-xs-8">
         <canvas id="canvas"></canvas>
     </div>
-    <div class="col-lg-4">
-    <div class="dropdown">
-        <button class="btn dropdown-toggle no-margin" type="button" data-toggle="dropdown">Choose Image Category
-            <span class="caret"></span></button>
-        <ul id="photo-menu" class="dropdown-menu">
-        </ul>
+        <div class="col-xs-4">
+        <div class="dropdown">
+            <button class="btn dropdown-toggle no-margin" type="button" data-toggle="dropdown">Choose Image Category
+                <span class="caret"></span></button>
+            <ul id="photo-menu" class="dropdown-menu">
+            </ul>
+        </div>
+            <div id='image-lists' class="mThumbnailScroller" data-mts-axis="y">
     </div>
-        <div id='image-lists' class="mThumbnailScroller" data-mts-axis="y">
-    </div>
+  <!--<div class="col-lg-4">-->
+
 </div>
     <div class="row">
     <div class="top-space col-md-6">
@@ -52,50 +55,6 @@
 
 
 </div>
-
-<script type="text/javascript" src="image_index.js"></script>
-<script>
-
-
-      var rootList = document.getElementById('image-lists');
-      for(var category in categoryLists) {
-        var dropdown = $("#photo-menu");
-        var categoryInList = document.createElement('li');
-          var categoryLink = document.createElement('a');
-          categoryLink.textContent = category;
-          categoryInList.appendChild(categoryLink);
-        dropdown.append(categoryInList);
-      }
-
-      $('div.dropdown ul.dropdown-menu li a').click(function (e) {
-          $("#photo-menu").dropdown("toggle");
-//          var $div = $(this).parent().parent().parent();
-//          var $btn = $div.find('button');
-//          console.log($btn);
-//          $btn.html($(this).text() + ' <span class="caret"></span>');
-          console.log($(this).text());
-          var category = $(this).text();
-//          $div.removeClass('open');
-//          e.preventDefault();
-
-
-          var listArea = $("#image-lists");
-          listArea.empty();
-          var list = $('<ul>');
-          listArea.append(list);
-          var imageUrls = categoryLists[category];
-          for(var i in imageUrls) {
-              var listItem = document.createElement('li');
-              var image = document.createElement('img');
-              image.setAttribute('src',imageUrls[i]);
-              image.setAttribute('width',150);
-              listItem.appendChild(image);
-              list.append(listItem);
-          }
-          return false;
-      });
-
-</script>
 
 </body>
 </html>

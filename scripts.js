@@ -111,13 +111,21 @@ $(function () {
     var margin = 10;
 
     var icons = ["icons/simple_house.svg",
-                "icons/apartment_modern.svg",
                 "icons/gas_pump.svg",
                 "icons/office_fancy.svg",
-                "icons/church.svg",
+                "icons/synagogue.svg",
                 "icons/house_garage.svg",
                 "icons/school.svg",
-                "icons/police_station.svg" ];
+                "icons/market.svg",
+                "icons/mosque.svg",
+                "icons/bench.svg",
+                "icons/tree.svg",
+                "icons/pinetree.svg",
+                "icons/palmtree.svg",
+                "icons/library.svg",
+                "icons/govt.svg",
+                "icons/office.svg",
+            ];
 
     for(var i=0;i<icons.length;i++) {
         addMapIcon(icons[i], 10+i*(margin+40), 10);
@@ -125,15 +133,17 @@ $(function () {
 
     var park = new fabric.Rect({
         fill: '#87D37C',
-        width: blockWidth,
-        height: blockHeight*2+streetWidth,
+        //stroke: 'green',
+        //strokeWidth: 0.5,
+        width: 10,
+        height: 8,
         selectable: false
     });
-    addShapeIcon(park, 10+icons.length*(margin+40), 10, park.height, park.width);
+    addShapeIcon(park, icons.length*(margin+40), 10, park.height, park.width);
 
     var text = new fabric.IText("text", {
         fontFamily: 'Helvetica',
-        fontSize: 16,
+        fontSize: 25,
         hasControls: false,
         top: 10,
         left: 10+(icons.length+1)*(margin+40)
@@ -199,6 +209,42 @@ $(function () {
         });
     };
     canvas.selection = false;
+
+    for(var category in categoryLists) {
+        var dropdown = $("#photo-menu");
+        var categoryInList = document.createElement('li');
+        var categoryLink = document.createElement('a');
+        categoryLink.textContent = category;
+        categoryInList.appendChild(categoryLink);
+        dropdown.append(categoryInList);
+    }
+
+    $('div.dropdown ul.dropdown-menu li a').click(function (e) {
+        $("#photo-menu").dropdown("toggle");
+        console.log($(this).text());
+        var category = $(this).text();
+
+        var listArea = $("#image-lists");
+        listArea.empty();
+        var list = $('<ul>');
+        listArea.append(list);
+        var imageUrls = categoryLists[category];
+        for(var i in imageUrls) {
+            var listItem = document.createElement('li');
+            var image = document.createElement('img');
+            image.setAttribute('src',imageUrls[i]);
+            image.setAttribute('width',150);
+            $(image).click(function (e) {
+                console.log(this.src);
+                addImage(this.src, 560, menuHeight+gapWidth+30);
+            });
+            listItem.appendChild(image);
+            list.append(listItem);
+        }
+        return false;
+    });
+
+
 
     //var imageText = new fabric.Text("Add image", {
     //    fontFamily: 'Arial',

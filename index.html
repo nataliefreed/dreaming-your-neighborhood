@@ -25,13 +25,13 @@
             <h1>Dreaming Your Neighborhood</h1>
         </div>
     </div>
-<div class="row">
-    <div class="top-space col-lg-9">
+<div class="top-space row">
+    <div class="col-md-9">
         <canvas id="canvas"></canvas>
     </div>
     <div class="col-lg-3">
     <div class="dropdown">
-        <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">Choose Image Category
+        <button class="btn dropdown-toggle no-margin" type="button" data-toggle="dropdown">Choose Image Category
             <span class="caret"></span></button>
         <ul class="dropdown-menu">
             <li><a href="#">Houses</a></li>
@@ -49,7 +49,7 @@
    </div>
 
 
-<!--<div id='image-lists'>-->
+<div id='image-lists'>
 </div>
 
 <script type="text/javascript" src="image_index.js"></script>
@@ -68,7 +68,7 @@
             list.appendChild(h)
             var image = document.createElement('img');
             image.setAttribute('src',imageUrls[i]);
-            image.setAttribute('height',300);
+            image.setAttribute('width',100);
             list.appendChild(image);
         }
       }

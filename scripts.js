@@ -25,9 +25,10 @@ $(function () {
         left: 0,
         top: menuHeight+gapWidth+1,
         fill: 'white',
-        stroke: 'black',
-        width: canvas.width-1,
-        height: canvas.height-menuHeight-gapWidth-2,
+        stroke: '#838383',
+        width: canvas.width-1-5,
+        height: canvas.height-menuHeight-gapWidth-2-5,
+        shadow:{ color:"gray",blur:3,offsetX:4,offsetY:4 },
         selectable: false
     });
     canvas.add(drawingArea);
@@ -45,10 +46,11 @@ $(function () {
     var menu = new fabric.Rect({
         left: 0,
         top: 0,
-        fill: 'white',
-        stroke: 'black',
-        width: canvas.width-1,
+        fill: '#c0c0c0',
+        width: canvas.width-1-5,
         height: menuHeight-1,
+        rx: 3,
+        ry: 3,
         selectable: false
     });
     canvas.add(menu);
